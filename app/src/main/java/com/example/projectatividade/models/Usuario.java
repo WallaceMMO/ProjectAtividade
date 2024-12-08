@@ -1,6 +1,6 @@
 package com.example.projectatividade.models;
 
-public class Usuario {
+public abstract class Usuario {
     private int identificador;
     private String nome;
 
