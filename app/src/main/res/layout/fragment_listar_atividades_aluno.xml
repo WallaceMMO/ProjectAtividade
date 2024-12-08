@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_listar_atividades_aluno"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/lblTituloListarAtividadesAluno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atividades Disponíveis"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerAtividadesAluno"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

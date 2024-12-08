@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título"/>
+        <EditText
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/lblDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição"/>
+        <EditText
+            android:id="@+id/txtDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/lblDataCriacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Criação (YYYY-MM-DD)"/>
+        <EditText
+            android:id="@+id/txtDataCriacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/lblDataEntrega"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Entrega (YYYY-MM-DD)"/>
+        <EditText
+            android:id="@+id/txtDataEntrega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/lblCriterioNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Critério Nome"/>
+        <EditText
+            android:id="@+id/txtCriterioNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/lblCriterioPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Critério Peso"/>
+        <EditText
+            android:id="@+id/txtCriterioPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnAdicionarCriterio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adicionar Critério"/>
+
+        <TextView
+            android:id="@+id/lblSelecionarAlunos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecionar Alunos"
+            android:paddingTop="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutAlunos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <TextView
+            android:id="@+id/lblCriteriosAdicionados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Critérios Adicionados"
+            android:paddingTop="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutCriteriosAdicionados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <Button
+            android:id="@+id/btnSalvarAtividade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar Atividade"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

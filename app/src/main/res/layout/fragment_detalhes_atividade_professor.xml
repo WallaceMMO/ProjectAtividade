@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblTituloAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título:"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtTituloAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título da Atividade"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/lblDescricaoAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtDescricaoAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição da Atividade"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/lblDataCriacaoAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data de Criação:"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtDataCriacaoAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2024-01-01"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/lblDataEntregaAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data de Entrega:"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtDataEntregaAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2024-02-01"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/lblCriteriosAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Critérios:"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerCriteriosAtivDet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/lblSubmissoesAtivDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submissões:"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerSubmissoesAtivDet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
